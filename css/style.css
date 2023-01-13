@@ -614,6 +614,367 @@ h3.my-profession
     color: var(--text-black-700);
 
 }
+
+/* Education */
+.education .education-content
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+
+}
+.education .education-content .personal-info
+{
+    flex: 0 0 60%;
+    margin-top: 40px;
+}
+.education .education-content.personal-info .info-item
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.education .education-content .personal-info .info-item p
+{
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--text-black-900);
+    border-bottom: 1px solid var(--bg-black-50);
+}
+.education .education-content .personal-info .info-item p span
+{
+    font-weight: 400;
+    color: var(--text-black-700);
+    margin-left: 4px;
+    display: inline-block;
+}
+.education .education-content .personal-info .buttons
+{
+    margin-top: 30px;
+}
+.education .education-content .personal-info .buttons .btn
+{
+    margin-top: 10px;
+}
+.education .education-content .skills
+{
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+}
+.education .education-content .skills .skill-item
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+.education .education-content .skills .skill-item h5
+{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+
+}
+.education .education-content .skills .skill-item  .progress
+{
+    background-color: var(--bg-black-50);
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+.education .education-content .skills .skill-item  .progress .progress-in
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--skin-color);
+}
+.education .education-content .skills .skill-item .skill-percent
+{
+    position: absolute;
+    right: 0;
+    color: var(--text-black-900);
+    top: -30px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.education .education-content
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 30px;
+}
+.education .education-content h3.title
+{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--text-black-900);
+
+}
+.education .education-content .timeline-box
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.education .education-content .timeline
+{
+    background-color: var(--bg-black-100);
+    padding: 30px 30px;
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+.education .education-content  .timeline .timeline-item
+{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+
+}
+
+.education .education-content  .timeline .timeline-item:last-child
+{
+    padding-bottom: 0;
+
+}
+.education .education-content .timeline .timeline-item::before
+{
+    content: ' ';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: var(--skin-color);
+}
+.education .education-content .timeline .circle-dot
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--skin-color);
+}
+.education .education-content .timeline .timeline-date
+{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
+
+}
+.education .education-content .timeline .timeline-item .fa
+{
+    margin-right: 5px;  
+}
+.education .education-content .timeline .timeline-title
+{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+    color: var(--text-black-900);
+}
+.education .education-content .timeline .timeline-text
+{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+
+}
+
+/* Experience */
+
+.experience .experience-content
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+
+}
+.experience .experience-content .personal-info
+{
+    flex: 0 0 60%;
+    margin-top: 40px;
+}
+.experience .experience-content .personal-info .info-item
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.experience .experience-content .personal-info .info-item p
+{
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--text-black-900);
+    border-bottom: 1px solid var(--bg-black-50);
+}
+.experience .experience-content .personal-info .info-item p span
+{
+    font-weight: 400;
+    color: var(--text-black-700);
+    margin-left: 4px;
+    display: inline-block;
+}
+.experience .experience-content .personal-info .buttons
+{
+    margin-top: 30px;
+}
+.experience .experience-content .personal-info .buttons .btn
+{
+    margin-top: 10px;
+}
+.experience .experience-content .skills
+{
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+}
+.experience .experience-content .skills .skill-item
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+.experience .experience-content .skills .skill-item h5
+{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+
+}
+.experience .experience-content .skills .skill-item  .progress
+{
+    background-color: var(--bg-black-50);
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+.experience .experience-content .skills .skill-item  .progress .progress-in
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--skin-color);
+}
+.experience .experience-content .skills .skill-item .skill-percent
+{
+    position: absolute;
+    right: 0;
+    color: var(--text-black-900);
+    top: -30px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.experience .experience-content
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 30px;
+}
+.experience .experience-content h3.title
+{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--text-black-900);
+
+}
+.experience .experience-content .timeline-box
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.experience .experience-content .timeline
+{
+    background-color: var(--bg-black-100);
+    padding: 30px 30px;
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+.experience .experience-content .timeline .timeline-item
+{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+
+}
+.experience .experience-content .timeline .timeline-item:last-child
+{
+    padding-bottom: 0;
+
+}
+.experience .experience-content .timeline .timeline-item::before
+{
+    content: ' ';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: var(--skin-color);
+}
+.experience .experience-content .timeline .circle-dot
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--skin-color);
+}
+.experience .experience-content .timeline .timeline-date
+{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
+
+}
+.experience .experience-content .timeline .timeline-item .fa
+{
+    margin-right: 5px;  
+}
+.experience .experience-content .timeline .timeline-title
+{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+    color: var(--text-black-900);
+}
+.experience .experience-content .timeline .timeline-text
+{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+
+}
+
+
+
+
+
 /*service*/
 .service .container
 {
@@ -695,7 +1056,8 @@ margin-bottom: 40px;
 .portfolio .portfolio-heading h2
 {
     color: var(--text-black-900);
-    font-weight: 500;
+    font-weight: 700;
+    font-family: 'Clicker Script', cursive;
 
 }
 .portfolio .portfolio-item
@@ -805,10 +1167,35 @@ margin-bottom: 40px;
 }
 .contact .contact-form  .btn
 {
-    height: 50px;
-    padding: 0 50px;
+    border: none;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  margin-left: 425px;
+  border-radius: 100px;
+  font-size: 18px;
+  background: var(--skin-color);
+  color: #fff;
+  position: relative;
 
 }
+.contact .contact-form .btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: scaleX(0);
+    width: 100%;
+    height: 100%;
+    background: #ffffff55;
+    border-radius: 100px;
+  }
+.contact .contact-form .btn:active::before {
+    animation: ripple 180ms cubic-bezier(0.43, 1, 0.62, 1);
+  }
+@keyframes ripple {
+    to {
+      transform: scaleX(1);
+    }
+  }
 @media (max-width: 1199px)
 {
     .section .container
@@ -872,6 +1259,7 @@ margin-bottom: 40px;
 {   
     .contact .contact-form .col-6,
     .contact .contact-info-item,
+    .contact .contact-form .btn
     .portfolio .portfolio-item,
     .service .service-item,
     .about .about-content .experience,
