@@ -15,4 +15,5 @@ submitBtn.addEventListener("click", function(event) {
   };
   console.log(userData);
   // send userData to the server, or do something else with it
+  form.reset()
 });
