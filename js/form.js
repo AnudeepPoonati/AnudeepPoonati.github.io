@@ -1,5 +1,5 @@
 var form = document.getElementById("form");
-var name = document.getElementById("name");
+var name = document.getElementById("fname");
 var email = document.getElementById("email");
 var phone = document.getElementById("phone");
 var message = document.getElementById("message");
@@ -8,7 +8,7 @@ var submitBtn = document.getElementById("submit-btn");
 submitBtn.addEventListener("click", function(event) {
   event.preventDefault(); // prevent form from submitting
   var userData = {
-    name: name.value,
+    name: fname.value,
     email: email.value,
     phone: phone.value,
     message: message.value
