@@ -15,8 +15,5 @@ submitBtn.addEventListener("click", function(event) {
   };
   console.log(userData);
   // send userData to the server, or do something else with it
-  name.value = "";
-  email.value = "";
-  phone.value = "";
-  message.value = "";
+  form.reset()
 });
