@@ -1191,6 +1191,7 @@ margin-bottom: 40px;
 .contact .contact-form .btn:active::before {
     animation: ripple 180ms cubic-bezier(0.43, 1, 0.62, 1);
   }
+
 @keyframes ripple {
     to {
       transform: scaleX(1);
