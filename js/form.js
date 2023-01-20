@@ -1,4 +1,4 @@
-var form = document.getElementById("form");
+var form = document.getElementById("myform");
 var name = document.getElementById("myname");
 var email = document.getElementById("email");
 var phone = document.getElementById("phone");
@@ -15,5 +15,5 @@ submitBtn.addEventListener("click", function(event) {
   };
   console.log(userData);
   // send userData to the server, or do something else with it
-  form.reset()
+  myform.reset()
 });
